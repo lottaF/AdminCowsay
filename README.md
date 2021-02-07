@@ -1,2 +1,1 @@
-# AdminCow
 # AdminCowsay
