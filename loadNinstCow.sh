@@ -3,7 +3,7 @@
 # check working & clean up repository
 mkdir TmpWorkSpace
 cd TmpWorkSpace
-git clone https://github.com/lottaF/AddCow.git
+git clone https://lottaF:$1@github.com/lottaF/AddCow.git
 pwd
 ls -l
 #RESULT=(bash AddCow.sh)
