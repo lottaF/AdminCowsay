@@ -1,7 +1,5 @@
 #! /bin/bash
-# Script adding a new persistent webserver
-# - Takes a name as input and adds this to a static 
-#   initial web page.
+# Script adding a small test program 'cowsay'.
 # Return any errors as output of function.
 
 # Variables: NAME (1st input argument)
@@ -24,8 +22,8 @@ fi
 
 
 
-echo "Installing service - this may take a while..."
-# Install nginx webserver. 
+echo "Installing cowsay - this may take a while..."
+# Install cowsay program 
 apt-get update --yes > /dev/null
 apt-get install cowsay --yes > /dev/null
 

@@ -1,7 +1,5 @@
 #! /bin/bash
-# Script adding a new persistent webserver
-# - Takes a name as input and adds this to a static 
-#   initial web page.
+# Script to remove the 'cowsay' program.
 # Return any errors as output of function.
 
 # Variables: NAME (1st input argument)
@@ -24,10 +22,9 @@ fi
 
 
 
-echo "Installing service - this may take a while..."
+echo "Removing the cowsay - this may take a while..."
 # Install nginx webserver. 
-apt-get update --yes > /dev/null
-apt-get install cowsay --yes > /dev/null
+apt-get remove cowsay --yes > /dev/null
 
 
 
